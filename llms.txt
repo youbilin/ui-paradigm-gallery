@@ -1,0 +1,42 @@
+﻿# 范式展览馆 · UI Paradigm Hall
+
+> UI 范式提示词 × 实际效果展览：每个范式配一份可复制给 AI 的提示词与真实渲染效果，专治 AI 生成前端的千篇一律。
+
+## AI 使用方式
+
+- 获取机器可读索引：GET /index.json
+- 提需求时指定范式，例如：「按『便当盒网格 Bento Grid』范式做一个 SaaS 定价页」
+- 索引内含每个范式的完整提示词、色彩与字体 token；AI 应按其布局 / 组件与交互规范执行
+
+## 展品索引
+
+- undefined AI 默认味 · Generic AI Slop — 同样的需求丢给十个 AI，九个输出长这样。（反面标本，用于规避）
+- undefined 便当盒网格 · Bento Grid — 像便当盒一样，把不同内容装进大小不一的格子里。
+- undefined 瑞士国际主义 · Swiss Style — 网格即真理：Helvetica、红与黑、左对齐的锋利层次。
+- undefined 新粗野主义 · Neo-Brutalism — 粗黑边、硬阴影、糖果色——故意「没做完」的张扬。
+- undefined 玻璃拟态 · Glassmorphism — 半透明磨砂层叠在鲜艳光斑上——轻盈，但别滥用。
+- undefined 杂志编辑风 · Editorial — 衬线大标题、首字下沉、Pull quote——把网页当杂志排版。
+- undefined 终端命令行 · Terminal / CLI — 等宽字体、扫描线、闪烁光标——极客的浪漫。
+- undefined 暗色数据仪表盘 · Dark Dashboard — 信息密集、数字等宽、状态点常亮——给眼睛看的驾驶舱。
+- undefined 日式极简 · 间 · Japanese Minimal / Ma — 留白即内容：一竖线、一颗印章、大片「间」。
+- undefined 千禧复古 · Y2K / Retro Web — 渐变、闪粉、跑马灯——2003 年的互联网全都回来啦。
+- undefined 装饰艺术 · Art Deco — 金与深绿、几何扇形、对称庄严——盖茨比请柬。
+- undefined 新拟物 · 触感 · Skeuomorphic / Soft UI — 凸起的按钮、凹陷的凹槽、会亮的 LED——屏幕里的实体。
+- undefined 手工纸艺 · 剪贴薄 · Paper Zine — 胶带、贴纸、剪报和马克笔笔迹——像手作的 zine。
+- undefined 包豪斯 · Bauhaus — 三原色、圆三角方——形式追随功能的设计原点。
+- undefined 孟菲斯 · Memphis — 波浪、斑点、撞色贴纸——后现代设计的派对现场。
+- undefined 赛博朋克 · Cyberpunk — 霓虹青与品红、切角 HUD、故障美学——高科技，低生活。
+- undefined 黏土拟态 · Claymorphism — 大圆角、马卡龙色、柔软 3D——界面像能捏的橡皮泥。
+- undefined 手绘涂鸦 · Hand-drawn — 歪歪扭扭的边框、马克笔高亮、手写便签——像笔记本里的草图。
+- undefined 像素艺术 · Pixel Art — 8-bit 游戏 HUD、像素边框、血条与金币——街机厅的界面语言。
+- undefined 蒸汽波 · Vaporwave — 粉紫渐变、透视网格、希腊柱与片假名——80 年代的未来残梦。
+- undefined 新中式 · Oriental Ink — 宣纸、竖排、朱砂印——留白处的东方秩序。
+- undefined 构成主义 · Constructivism — 斜切的色块、巨号数字、红与黑——把界面当成一张动员海报来排。
+- undefined 新艺术运动 · Art Nouveau — 藤蔓般的曲线、金线描边、彩窗拱门——让界面从花园里长出来。
+- undefined 水族馆拟真 · Frutiger Aero — 天空、草地、水光气泡——2008 年科技广告里的那个干净世界。
+- undefined 新拟态 · Neumorphism — 同一块「软塑料」里挤出按钮、按进输入框——影子即界面。
+- undefined 孔版印刷 · Risograph — 荧光粉撞打印蓝、套色永远差两毫米——数字时代的油墨颗粒感。
+- undefined 哥特手抄本 · Gothic Manuscript — 黑体字、泥金首字母、朱砂批注——界面是一页被抄写员装饰过的羊皮纸。
+- undefined 软萌糖果 · Kawaii Pastel — 马卡龙色、腮红按钮、会眨眼的吉祥物——每个控件都想被捏一下。
+
+每个范式的完整提示词见 index.json 的 paradigms[].prompt（含组件与交互规范）。
