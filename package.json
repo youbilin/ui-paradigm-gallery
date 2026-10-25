@@ -1,0 +1,25 @@
+{
+  "name": "ui-paradigm-gallery",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "范式展览馆 — UI 范式提示词 × 实际效果展览，专治 AI 生成前端的千篇一律",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "index": "tsx scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7"
+  }
+}
